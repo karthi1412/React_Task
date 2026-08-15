@@ -4,12 +4,14 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Statetask from './Components/Statetask'
+import Basics from './Components/Basics'
 
 function App() {
 
   return (
     <>
-      <Statetask/>
+      <Basics />
+      <Statetask />
     </>
   )
 }
