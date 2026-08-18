@@ -5,6 +5,8 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Statetask from './Components/Statetask'
 import Basics from './Components/Basics'
+import UseEffect from './Components/UseEffect'
+import UseRef from './Components/UseRef'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
     <>
       <Basics />
       <Statetask />
+      <UseEffect/>
+      <UseRef/>
     </>
   )
 }
