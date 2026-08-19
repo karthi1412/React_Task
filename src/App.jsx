@@ -7,6 +7,7 @@ import Statetask from './Components/Statetask'
 import Basics from './Components/Basics'
 import UseEffect from './Components/UseEffect'
 import UseRef from './Components/UseRef'
+import UseMemo from './Components/UseMemo'
 
 function App() {
 
@@ -14,8 +15,9 @@ function App() {
     <>
       <Basics />
       <Statetask />
-      <UseEffect/>
-      <UseRef/>
+      <UseEffect />
+      <UseRef />
+      <UseMemo />
     </>
   )
 }
