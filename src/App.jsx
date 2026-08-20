@@ -8,6 +8,7 @@ import Basics from './Components/Basics'
 import UseEffect from './Components/UseEffect'
 import UseRef from './Components/UseRef'
 import UseMemo from './Components/UseMemo'
+import MountingExample from './Components/MountingExample'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <UseEffect />
       <UseRef />
       <UseMemo />
+      <MountingExample/>
     </>
   )
 }
