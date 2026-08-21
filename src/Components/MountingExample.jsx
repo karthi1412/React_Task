@@ -18,7 +18,7 @@ export class MountingExample extends Component {
         }, 1000)
     }
 
-    resetCounter = () => {
+    resetCounter = () => { 
         this.setState({ count: 0 })
     }
 
@@ -26,6 +26,8 @@ export class MountingExample extends Component {
     render() {
         return (
             <div>
+                <hr></hr>
+                <h4>Mounting Example</h4>
                 <h2>Counter : {this.state.count}</h2>
                 <button onClick={this.resetCounter}>Reset</button>
             </div>

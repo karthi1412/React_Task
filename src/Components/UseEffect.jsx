@@ -22,10 +22,12 @@ function UseEffect() {
 
     return (
         <div>
+            <h4>Useeffect</h4>
             <button onClick={() => setCount(count + 1)}>Click Me</button>
             <input type='text' placeholder='Enter Your Name' onChange={(e) => setName(e.target.name)}></input>
             
             <h2>It have rendered {time} times</h2>
+            <hr></hr>
 
         </div>
     )

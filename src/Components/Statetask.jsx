@@ -26,6 +26,7 @@ function Statetask() {
 
     return (
         <div>
+            <h4>StateTask</h4>
             <div>
                 <h3>Number Count : {number}</h3>
                 <button onClick={() => setNumber(number + 1)}>Increment</button>
@@ -48,6 +49,7 @@ function Statetask() {
                 <p>Salary : {user.salary}</p>
                 <button onClick={changesal}>Change Salary</button>
             </div>
+            <hr></hr>
         </div>
     )
 }

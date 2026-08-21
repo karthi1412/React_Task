@@ -9,6 +9,7 @@ import UseEffect from './Components/UseEffect'
 import UseRef from './Components/UseRef'
 import UseMemo from './Components/UseMemo'
 import MountingExample from './Components/MountingExample'
+import UpdatingExample from './Components/UpdatingExample'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <UseRef />
       <UseMemo />
       <MountingExample/>
+      <UpdatingExample/>
     </>
   )
 }

@@ -14,14 +14,15 @@ function UseRef() {
 
     return (
         <div>
+            <h4>Useref</h4>
             <input type='text' placeholder='Enter your name'
                 ref={inputRef}
             ></input>
-            <hr></hr>
             <input type='text' placeholder='Enter your name'
                 ref={valueRef}
             ></input>
             <button onClick={clearfun}> Clear Input</button>
+            <hr></hr>
         </div>
     )
 }
