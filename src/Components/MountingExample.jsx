@@ -8,7 +8,7 @@ export class MountingExample extends Component {
         this.state = {
             count: 0
         }
-    }
+    } 
 
     componentDidMount() {
         console.log("Counter Started")
