@@ -10,18 +10,24 @@ import UseRef from './Components/UseRef'
 import UseMemo from './Components/UseMemo'
 import MountingExample from './Components/MountingExample'
 import UpdatingExample from './Components/UpdatingExample'
+import Navbar from './Components/Navbar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './Components/Home'
+import About from './Components/About'
+
 
 function App() {
 
   return (
     <>
-      <Basics />
-      <Statetask />
-      <UseEffect />
-      <UseRef />
-      <UseMemo />
-      <MountingExample/>
-      <UpdatingExample/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
