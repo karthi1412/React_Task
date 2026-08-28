@@ -9,7 +9,7 @@ export class UpdatingExample extends Component {
         }
     }
 
-    componentDidUpdate(prevProps, prevState) {
+    componentDidUpdate(prevProps, prevState) { 
         console.log('componentDidUpdate');
         if (prevState.count !== this.state.count) {
             console.log("Count changed to : ", this.state.count)
