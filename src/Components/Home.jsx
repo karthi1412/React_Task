@@ -11,7 +11,6 @@ import UpdatingExample from './UpdatingExample';
 function Home() {
     return (
         <div>
-
             <Basics />
             <Statetask />
             <UseEffect />
@@ -19,7 +18,6 @@ function Home() {
             <UseMemo />
             <MountingExample />
             <UpdatingExample />
-
         </div>
     )
 }
